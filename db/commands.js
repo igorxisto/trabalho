@@ -22,11 +22,6 @@ async function insertCustomer(customer){
     return await conn.query(sql, values);
 }
 
-// async function deleteCustomer(id){
-//     const conn = await connect();
-//     const sql = 'DELETE FROM empresas WHERE nome="shein";';
-//     return await conn.query(sql, [id]);
-// }
 
 
 async function selectCustomers(){
